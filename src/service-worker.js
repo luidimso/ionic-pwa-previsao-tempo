@@ -19,6 +19,12 @@ self.toolbox.options.cache = {
 // pre-cache our key assets
 self.toolbox.precache(
   [
+    './assets/imgs/1.jpg',
+    './assets/imgs/2.jpg',
+    './assets/imgs/3.jpg',
+    './assets/imgs/4.jpg',
+    './assets/imgs/5.jpg',
+    './assets/imgs/6.jpg',
     './build/main.js',
     './build/vendor.js',
     './build/main.css',

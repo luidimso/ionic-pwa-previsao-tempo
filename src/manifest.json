@@ -1,13 +1,33 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "Previsão do tempo",
+  "short_name": "Previsão do tempo",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
-    "src": "assets/imgs/logo.png",
-    "sizes": "512x512",
-    "type": "image/png"
+    "src": "assets/imgs/1.jpg",
+    "sizes": "48x48",
+    "type": "image/jpg"
+  },{
+    "src": "assets/imgs/2.jpg",
+    "sizes": "72x72",
+    "type": "image/jpg"
+  },{
+    "src": "assets/imgs/3.jpg",
+    "sizes": "96x96",
+    "type": "image/jpg"
+  },{
+    "src": "assets/imgs/4.jpg",
+    "sizes": "144x144",
+    "type": "image/jpg"
+  },{
+    "src": "assets/imgs/5.jpg",
+    "sizes": "168x168",
+    "type": "image/jpg"
+  },{
+    "src": "assets/imgs/6.jpg",
+    "sizes": "192x192",
+    "type": "image/jpg"
   }],
-  "background_color": "#4e8ef7",
-  "theme_color": "#4e8ef7"
+  "background_color": "#0A651A",
+  "theme_color": "#0A651A"
 }
