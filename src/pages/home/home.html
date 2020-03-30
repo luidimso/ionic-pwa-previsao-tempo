@@ -1,0 +1,36 @@
+<ion-header padding *ngIf="temp.length > 0 && temp_agora != null">
+  <div>
+    <h2>{{temp_agora.name}}</h2>
+    <h1 style="float: left">{{temp_agora.main.temp}}°C</h1> <img src="{{'http://openweathermap.org/img/w/'+temp_agora.weather[0].icon+'.png'}}" style="height: auto; width: 75px;">
+    <h3>{{temp_agora.weather[0].description}}</h3>
+  </div>
+</ion-header>
+
+<ion-content *ngIf="temp.length > 0 && temp_agora != null" style="margin-top: 175px">
+  <ion-card>
+    <ion-card-header>
+      <h1>Amanhã</h1>
+      <h2>{{cidade}}</h2>
+      <h3>{{temp[0].weather[0].description}}</h3>
+    </ion-card-header>
+
+    <ion-card-content>
+      <img src="{{'http://openweathermap.org/img/w/'+temp[0].weather[0].icon+'.png'}}" style="height: 25%; width: 25%;float: left;">
+      <h1 style="float: right; margin-top: 20px">{{temp[0].main.temp}}°C</h1>
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-card>
+    <ion-card-header>
+      <h1>Depois de amanhã</h1>
+      <h2>{{cidade}}</h2>
+      <h3>{{temp[1].weather[0].description}}</h3>
+    </ion-card-header>
+
+    <ion-card-content>
+      <img src="{{'http://openweathermap.org/img/w/'+temp[1].weather[0].icon+'.png'}}" style="height: 25%; width: 25%;float: left;">
+      <h1 style="float: right; margin-top: 20px">{{temp[1].main.temp}}°C</h1>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

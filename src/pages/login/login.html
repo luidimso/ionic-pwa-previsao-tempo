@@ -1,0 +1,17 @@
+<ion-content padding>
+  <h1 text-center>Informe a cidade que deseja ver a previsão do tempo</h1>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-8>
+        <ion-item>
+          <ion-label floating>Cidade</ion-label>
+          <ion-input type="text" #cidade></ion-input>
+        </ion-item>
+      </ion-col>
+
+      <ion-col col-4>
+        <br><br> <button ion-button (click)="verificar(cidade.value)">Verificar</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
