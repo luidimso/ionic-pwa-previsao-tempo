@@ -8,14 +8,10 @@ import { SQLite } from '@ionic-native/sqlite';
 import { Toast } from '@ionic-native/toast';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { LoginPage } from '../pages/login/login';
 
 @NgModule({
   declarations: [
-    MyApp,
-    HomePage,
-    LoginPage
+    MyApp
   ],
   imports: [
     BrowserModule,
@@ -24,9 +20,7 @@ import { LoginPage } from '../pages/login/login';
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
-    HomePage,
-    LoginPage
+    MyApp
   ],
   providers: [
     StatusBar,

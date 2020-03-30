@@ -23,7 +23,7 @@ export class LoginPage {
 
     this.http.get(this.url+encodeURI(cidade)).map(res => res.json()).subscribe(data => {
       loading.dismiss();
-      this.navCtrl.push(HomePage, {cidade: cidade})
+      this.navCtrl.push("HomePage", {cidade: cidade})
     }, err => {
       loading.dismiss();
 
